@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <select id="selectColor">
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="pink">Pink</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="aquamarine">Aquamarine</option>
+            <option value="MediumSlateBlue">MediumSlateBlue</option>
+            <option value="white" selected>White</option>
+        </select>
+    </div>
+
+    <div class="textDiv">
+        <select class="textPosition">
+            <option value="Arial, Helvetica, sans-serif" selected>Arial</option>
+            <option value="Comic Sans MS, Comic Sans, cursive">Comic Sans MS</option>
+            <option value="Impact, fantasy">Impact</option>
+            <option value="Courier New, monospace">Courier New</option>
+            <option value="serif">serif</option>
+            <option value='"Papyrus", fantasy;'>Papyrus, fantasy;</option>
+        </select>
+    </div>
+
+    <style>
+        @font-face {
+            font-family: "Papyrus";
+            src: url("PAPYRUS.TTF");
+        }
+        /* ne rabotat */
+    </style>
+
+    <h1 class="privet">Privet</h1>
+
+    <script src="script.js"></script>
+</body>
+</html>
